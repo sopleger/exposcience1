@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def load_model() : 
-    with open("avc_complete_5.pkl", "rb") as file :
+    with open("avc_complete_5.pkl.zip", "rb") as file :
         data = pickle.load(file)
     return data
 
